@@ -2,6 +2,7 @@
 
 This is the capstone of the Back-End Developer professional certificate by Meta. 
 
+We create a fictional restaurant named Little Lemon with the following steps.
 We create a Django project and set up the static routes to serve static content using HTML, CSS, and JavaScript. 
 Using MySQL, we code the models and API using Django rest framework. 
 The front end queries and interacts with the table reservation API to send and retrieve data from a MySQL database.
