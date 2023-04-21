@@ -8,4 +8,7 @@ Using MySQL, we code the models and API using Django rest framework.
 The front end queries and interacts with the table reservation API to send and retrieve data from a MySQL database.
 Using the Django rest framework, we implement the menu API to return a list of food menu items.
 
+We add token authentication with Djoser. We implement TokenAuthentication feature of Django REST frame work 
+to secure table booking API.
+
 To be continued as we finish the project...
