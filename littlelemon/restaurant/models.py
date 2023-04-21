@@ -3,19 +3,17 @@ from datetime import datetime
 
 # Create your models here.
 class Booking(models.Model):
-    Book_id = models.SmallIntegerField(default=0)
     Name = models.CharField(max_length=255, db_index=True)
     No_of_guests = models.PositiveIntegerField(default=1)
     BookingDate = models.DateTimeField(default=datetime.now, blank=True)
 
     def __str__(self):
-        return self.Name
+        return f'{self.Name}, table for {self.No_of_guests} on {self.BookingDate}'
 
 class Menu(models.Model):
-    Menu_id = models.SmallIntegerField(default=0)
     Title = models.CharField(max_length=255, db_index=True)
     Price = models.DecimalField(max_digits=10, decimal_places=2, default=0)
     Inventory = models.PositiveIntegerField(default=0)
 
     def __str__(self):
-        return self.Title
+        return f'{self.Title}. Price at {self.Price}. Total inventory is {self.Inventory}'
