@@ -12,3 +12,9 @@ We add token authentication with Djoser. We implement TokenAuthentication featur
 to add a registration page, add the login page, add the log out functionality, and secure table booking API. 
 We perform unit tests to the models and views by creating test_models.py and test_views.py files. We test
 the API using Insomnia.
+
+API paths to test: 
+/restaurant/menu-item/
+/restaurant/menu-item/1
+/restaurant/booking/
+/restaurant/api-token-auth/
