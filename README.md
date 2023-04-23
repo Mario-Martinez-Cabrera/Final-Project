@@ -14,7 +14,11 @@ We perform unit tests to the models and views by creating test_models.py and tes
 the API using Insomnia.
 
 API paths to test: 
+
 /restaurant/menu-item/
+
 /restaurant/menu-item/1
+
 /restaurant/booking/
+
 /restaurant/api-token-auth/
