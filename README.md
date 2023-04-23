@@ -9,7 +9,6 @@ The front end queries and interacts with the table reservation API to send and r
 Using the Django rest framework, we implement the menu API to return a list of food menu items.
 
 We add token authentication with Djoser. We implement TokenAuthentication feature of Django REST frame work 
-to secure table booking API. We perform unit tests to the models and views by creating test_models.py and 
-test_views.py files.
-
-To be continued as we finish the project...
+to add a registration page, add the login page, add the log out functionality, and secure table booking API. 
+We perform unit tests to the models and views by creating test_models.py and test_views.py files. We test
+the API using Insomnia.
